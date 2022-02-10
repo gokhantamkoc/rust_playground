@@ -4,10 +4,10 @@ mod formatting;
 mod functions;
 mod loops;
 mod pointer_ref;
-mod types;
 mod strings;
 mod structs;
 mod tuples;
+mod types;
 mod vars;
 mod vectors;
 

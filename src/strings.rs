@@ -26,7 +26,7 @@ pub fn run() {
     }
 
     // Create String with capacity
-    let mut s  = String::with_capacity(10);
+    let mut s = String::with_capacity(10);
     s.push('a');
     s.push('a');
 

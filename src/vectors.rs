@@ -19,7 +19,6 @@ pub fn run() {
     // Get slice
     let slice: &[i32] = &numbers[0..3];
     println!("Slice {:?}", slice);
-    
 
     // Add to vector
     numbers.push(25);

@@ -4,12 +4,11 @@
 struct Color {
     red: u8,
     green: u8,
-    blue: u8
+    blue: u8,
 }
 
 // Tuple Struct
 struct ColorT(u8, u8, u8);
-
 
 pub fn run() {
     let mut c = Color {

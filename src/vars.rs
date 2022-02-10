@@ -4,7 +4,7 @@
 
 pub fn run() {
     let name = "Gökhan";
-    let mut age = 32;           // let variables are immutable by default. you need to put mut.
+    let mut age = 32; // let variables are immutable by default. you need to put mut.
     age = 21;
 
     println!("My name is {} and I am {}.", name, age);
