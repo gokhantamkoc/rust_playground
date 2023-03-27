@@ -1,33 +1,32 @@
-mod arrays;
-mod cli;
-mod conditionals;
-mod enums;
-mod formatting;
-mod functions;
-mod loops;
-mod pointer_ref;
-mod strings;
-mod structs;
-mod tuples;
-mod types;
-mod vars;
-mod vectors;
+use std::str::FromStr;
+
+mod advanced;
+mod beginner;
 
 fn main() {
     println!("Hello, world!");
 
-    // formatting::run();
-    // vars::run();
-    // types::run();
-    // strings::run();
-    // tuples::run();
-    // arrays::run();
-    // vectors::run();
-    // conditionals::run();
-    // loops::run();
-    // functions::run();
-    // pointer_ref::run();
-    // structs::run();
-    // enums::run();
-    cli::run();
+    // beginner module
+
+    // beginner::formatting::run();
+    // beginner::vars::run();
+    // beginner::types::run();
+    // beginner::strings::run();
+    // beginner::tuples::run();
+    // beginner::arrays::run();
+    // beginner::vectors::run();
+    // beginner::conditionals::run();
+    // beginner::loops::run();
+    // beginner::functions::run();
+    // beginner::pointer_ref::run();
+    // beginner::structs::run();
+    // beginner::enums::run();
+    // beginner::cli::run();
+
+    // advanced
+
+    // advanced::traits::run();
+
+    let file_path = String::from("test.txt");
+    advanced::io::run(file_path);
 }
